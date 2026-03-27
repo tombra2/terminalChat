@@ -8,4 +8,4 @@ RUN javac src/ServerSocket.java
 
 EXPOSE 5555
 
-CMD ["java", "-cp", "src", "ChatServer"]
+CMD ["java", "-cp", "src", "ServerSocket"]
