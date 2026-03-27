@@ -4,8 +4,8 @@ WORKDIR /app
 
 COPY src ./src
 
-RUN javac src/ServerSocket.java
+RUN javac src/Server.java
 
 EXPOSE 5555
 
-CMD ["java", "-cp", "src", "ServerSocket"]
+CMD ["java", "-cp", "src", "Server"]
