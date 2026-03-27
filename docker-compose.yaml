@@ -1,0 +1,7 @@
+services:
+  java-chat:
+    build: .
+    container_name: java-terminal-chat
+    ports:
+      - "5555:5555"
+    restart: unless-stopped
