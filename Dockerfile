@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY src ./src
 
-RUN javac src/SeverServer.java
+RUN javac src/ServerServer.java
 
 EXPOSE 5555
 
